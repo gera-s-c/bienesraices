@@ -14,11 +14,7 @@ const clean = require('gulp-clean');
 const webp = require('gulp-webp');
 
 const paths = {
-<<<<<<< HEAD
-    scss: 'src/scss/app.scss',
-=======
     scss: 'src/scss/**/*.scss',
->>>>>>> e5a4bf8263e99b5fd839923c9853d645735a74a5
     js: 'src/js/**/*.js',
     imagenes: 'src/img/**/*'
 }
@@ -66,9 +62,5 @@ function watchArchivos() {
 }
 
 exports.css = css;
-<<<<<<< HEAD
-=======
-exports.default = css;
->>>>>>> e5a4bf8263e99b5fd839923c9853d645735a74a5
 exports.watchArchivos = watchArchivos;
 exports.default = parallel(css, javascript, imagenes, versionWebp, watchArchivos); 
