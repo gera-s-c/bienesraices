@@ -1,10 +1,12 @@
 @use '../base/mixins' as mixins;
 @use '../base/variables' as vars;
+@use 'sass:math';
 
 .footer {
     background-color: vars.$grisOscuro;
 
     .contenido-footer {
-        padding-top: vars.$separacion / 2;
+        padding-top: math.div(vars.$separacion, 2); 
+
     }
 }
