@@ -1,0 +1,8 @@
+@use '../base/mixins' as *;
+
+@include tablet {
+    .contenedor_anuncio {
+    @include grid(3, 2rem);
+    }
+}
+
