@@ -1,4 +1,6 @@
 @use '../base/mixins' as *;
+@use '../base/variables' as *;
+
 
 @include tablet {
     .contenedor_anuncio {
@@ -6,3 +8,11 @@
     }
 }
 
+.anuncio {
+    background-color: color.lighten($gris, 5);
+    border: 1px solid color.darken($gris, 10);
+
+    .contenido-anuncio {
+        padding: 2rem;
+    }
+}
