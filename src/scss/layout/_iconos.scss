@@ -5,6 +5,7 @@
     .iconos-nosotros {
         @include grid(3, 2rem)
     }
+
 }  
 .icono {
     text-align: center;
@@ -15,3 +16,14 @@
         text-transform: uppercase;
     }
 }
+
+.icono {
+    text-align: center;
+    img {
+        height: 10rem;
+    }
+    h3 {
+        text-transform: uppercase;
+    }
+}
+

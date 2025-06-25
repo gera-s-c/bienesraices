@@ -1,8 +1,13 @@
 @use './variables' as *;
 
 .seccion {
+
     margin-top: calc(#{math.div($separacion, 2)});
     margin-bottom: calc(#{math.div($separacion, 2)});
+
+
+    margin-top: calc($separacion / 2);
+    margin-bottom: calc($separacion / 2);
 
 }
 .contenido-centrado {
